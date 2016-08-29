@@ -1,0 +1,131 @@
+/*.table{
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}*/
+.has-error {
+    color: red;
+}
+.input-error{
+    border: 1px solid red;
+}
+
+/*
+}
+html{
+    background-color:#2F2F2F;
+}
+
+body, #mainWrapper {
+    height: 100%;
+    background-image: -webkit-gradient(
+            linear,
+            right bottom,
+            right top,
+            color-stop(0, #EDEDED),
+            color-stop(0.08, #EAEAEA),
+            color-stop(1, #2F2F2F),
+            color-stop(1, #AAAAAA)
+    );
+    background-image: -o-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+    background-image: -moz-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+    background-image: -webkit-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+    background-image: -ms-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+    background-image: linear-gradient(to top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+}
+*/
+
+body, #mainWrapper, .form-control {
+    font-size: 12px !important;
+}
+
+#mainWrapper {
+    height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#authHeaderWrapper {
+    clear: both;
+    width: 100%;
+    height: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.login-container {
+    margin-top: 100px;
+    background-color: floralwhite;
+    width: 40%;
+    left: 30%;
+    position: absolute;
+}
+
+.login-card {
+    width: 80%;
+    margin: auto;
+}
+
+.login-form {
+    padding: 10%;
+}
+
+/* example styles for validation form demo */
+#register-form {
+    background: url("/resources/images/form-fieldset.gif") repeat-x scroll left bottom #F8FDEF;
+    border: 1px solid #DFDCDC;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 370px;
+    margin-top: 70px;
+    padding: 25px 50px 10px;
+    width: 450px;
+}
+
+#register-form .fieldgroup {
+    background: url("/resources/images/form-divider.gif") repeat-x scroll left top transparent;
+    display: inline-block;
+    padding: 8px 10px;
+    width: 340px;
+}
+
+#register-form .fieldgroup label {
+    float: left;
+    padding: 15px 0 0;
+    text-align: right;
+    width: 110px;
+}
+
+#register-form .fieldgroup input, #register-form .fieldgroup textarea, #register-form .fieldgroup select {
+    float: right;
+    margin: 10px 0;
+    height: 25px;
+}
+
+#register-form .submit {
+    padding: 10px;
+    width: 220px;
+    height: 40px !important;
+}
+
+#register-form .fieldgroup label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    margin: 4px 0 5px 125px;
+    padding: 0;
+    text-align: left;
+    width: 220px;
+}
+
+.field_set {
+    border-color: inherit;
+    border-style: inherit;
+}
+
+
+
