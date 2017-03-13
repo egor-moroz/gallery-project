@@ -1,7 +1,7 @@
 package com.gallery.service;
 
 
-import com.gallery.Util.EmailAddressNotAvailableException;
+import com.gallery.validator.EmailAddressNotAvailableException;
 import com.gallery.model.Picture;
 import com.gallery.model.User;
 

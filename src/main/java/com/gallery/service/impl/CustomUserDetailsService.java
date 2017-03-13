@@ -1,7 +1,8 @@
-package com.gallery.service;
+package com.gallery.service.impl;
 
 
 import com.gallery.model.User;
+import com.gallery.service.GalleryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

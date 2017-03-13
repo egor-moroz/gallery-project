@@ -1,8 +1,7 @@
 package com.gallery.model;
 
-import com.gallery.Util.ValidPassword;
-import com.gallery.Util.ValidUniqueEmail;
-import org.hibernate.validator.constraints.Email;
+import com.gallery.validator.ValidPassword;
+import com.gallery.validator.ValidUniqueEmail;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
 

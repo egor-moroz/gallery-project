@@ -1,6 +1,5 @@
-package com.gallery.Util;
+package com.gallery.validator;
 
-import com.gallery.Util.ValidUniqueEmail;
 import com.gallery.service.GalleryService;
 import org.springframework.beans.factory.annotation.Autowired;
 

@@ -1,4 +1,4 @@
-package com.gallery.Util;
+package com.gallery.validator;
 
 public class EmailAddressNotAvailableException extends Exception {
 
